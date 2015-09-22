@@ -1,0 +1,12 @@
+branch-defaults:
+  master:
+    environment: voucher-eb-test-dev
+  prodenv:
+    environment: voucher-eb-test-prod
+global:
+  application_name: voucher_eb_test
+  default_ec2_keyname: null
+  default_platform: Node.js
+  default_region: eu-west-1
+  profile: eb-cli
+  sc: git
